@@ -1,0 +1,27 @@
+#ifndef UPDATE_H_INCLUDED
+#define UPDATE_H_INCLUDED
+
+#include <SFML_>
+
+extern RenderWindow window;
+
+extern RectangleShape rec[LIMIT];
+extern RectangleShape recB[LIMIT];
+extern RectangleShape treeWRec[LIMIT];
+extern RectangleShape treeRec[LIMIT];
+
+extern RectangleShape waterRec;
+extern Sprite cloudsSpr;
+
+extern Texture tileTex;
+extern Texture treeTex;
+
+extern float bgPosX;
+extern float waterPosX;
+
+float bgPosX = 0;
+float waterPosX = 0;
+Clock clock;
+float deltaTime;
+
+#endif // UPDATE_H_INCLUDED

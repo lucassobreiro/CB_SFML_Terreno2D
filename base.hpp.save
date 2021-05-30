@@ -1,0 +1,26 @@
+#ifndef BASE_HPP_INCLUDED
+#define BASE_HPP_INCLUDED
+
+#include <SFML/Graphics.hpp>
+#include <iostream>
+#include <time.h>
+
+using namespace sf;
+
+#define RESX 1280
+#define RESY 720
+
+#define RECSIZE 16
+#define LIMIT 80
+#define WATERSIZE 256
+#define SUNSIZE 64
+
+#define DEFAULT_TREE_D 4
+#define DEFAULT_TREE_H_MIN 
+#define DEFAULT_TREE_H_MAX
+
+void newTerrain(int treeD, int treeH_min, int treeH_max);
+void update(void);
+void draw(void);
+
+#endif // BASE_HPP_INCLUDED
